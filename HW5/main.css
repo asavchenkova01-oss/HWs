@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #C6DCE4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.fb {
+    height: 15px;
+    width: 15px;
+}
+
+.welcome img {
+    margin: 35px;
+    
+}
+
+p {
+    line-height: 20px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #C6DCE4;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#dinner {
+    text-align: center;
+}
