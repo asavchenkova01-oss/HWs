@@ -69,7 +69,8 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #F4F8FB;
-    padding: 80px 120px;
+    padding: 120px 120px 80px 120px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .guy-img img {
@@ -78,11 +79,12 @@ header {
 }
 
 .guy-content p {
-    font-size: 12px;
-    color: #555;
+    font-size: 14px;
     margin: 35px 0;
     font-weight: 500;
     color: #777777;
+    font-family: "Open Sans", sans-serif;
+    color: #7d7d7d;
 }
 
 .guy-content h1 {
@@ -125,9 +127,9 @@ header {
 }
 
 .clients-logos img {
-    width: 60px;  
+    width: 48px;  
     height: auto;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .clients-content {
@@ -144,10 +146,76 @@ header {
 
 .clients {
     background-color: #ffffff;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .clients-content h2 {
     font-size: 28px;
     font-weight: 700;
+    color: #4D4D4D;
+}
+
+.community {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.community-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+
+.community-header p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #717171;
+    margin-bottom: 50px;
+}
+
+.community-cards {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card i {
+    color:#4b8b4d;
+    font-size: 32px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #717171;
+    line-height: 26px;
+}
+
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    background-color: #E8F5E9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px auto;
+}
+
+.icon-circle i {
+    font-size: 40px;
+    color: #4CAF4F;
 }
