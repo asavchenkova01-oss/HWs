@@ -60,7 +60,7 @@ header {
     padding: 5px 10px;
 }
 
-#green-part {
+.green-part {
     color: #4b8b4d;
 }
 
@@ -69,7 +69,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #F4F8FB;
-    padding: 120px 120px 80px 120px;
+    padding: 10px 60px 60px 60px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -90,6 +90,7 @@ header {
 .guy-content h1 {
     font-size: 40px;
     font-weight: 700;
+    color: #7d7d7d;
 }
 
 .guy-sign {
@@ -218,4 +219,60 @@ header {
 .icon-circle i {
     font-size: 40px;
     color: #4CAF4F;
+}
+
+.reinvent {
+    background-color: #F4F8FB;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.reinvent-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4D4D4D;
+    line-height: 40px;
+}
+
+.reinvent-content p {
+    margin-top: 15px;
+    color: #717171;
+    font-size: 16px;
+}
+
+.reinvent-figures {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 200px;
+}
+
+.figure i {
+    font-size: 28px;
+    color: #4CAF4F;
+}
+
+.figure h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4D4D4D
+}
+
+.figure p {
+    font-size: 14px;
+    color: #717171;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
 }
