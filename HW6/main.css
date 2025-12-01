@@ -9,10 +9,12 @@ header {
     background-color: #F4F8FB;
     font-family: "Open Sans", sans-serif;
 }
-.container {
+.header {
     display: flex;
     justify-content: space-around;
+    max-width: 1500px;
     align-items: center;
+    margin: 0 auto;
     padding: 20px 40px;
 }
 
@@ -20,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
 }
 
 .menu ul {
@@ -27,17 +30,18 @@ header {
     display: flex;
     gap: 40px;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .sign {
     display: flex;
     justify-content:center;
     gap: 15px;
+    align-items: center;
 }
 
 .login {
     text-decoration: none;
-    margin-left: 20px;
     padding: 8px 18px;
     color:#4b8b4d;
     font-weight: 400;
@@ -46,7 +50,6 @@ header {
 
 .signup {
     text-decoration: none;
-    margin-left: 20px;
     font-size: 16px;
     color: rgb(255, 255, 255);
     background-color: #4b8b4d;
@@ -69,7 +72,7 @@ header {
 
 .guy {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #F4F8FB;
     padding: 10px 60px 60px 60px;
@@ -85,9 +88,9 @@ header {
     font-size: 16px;
     margin: 35px 0;
     font-weight: 500;
-    color: #777777;
+    color: #717171;
+    line-height: 24px;
     font-family: "Open Sans", sans-serif;
-    color: #7d7d7d;
 }
 
 .grey {
@@ -101,8 +104,8 @@ header {
     font-size: 16px;
     color: rgb(255, 255, 255);
     background-color: #4b8b4d;
-    padding: 15px 18px;
-    border-radius: 10px;
+    padding: 15px 30px;
+    border-radius: 15px;
     font-weight: 600;
 }
 
@@ -151,6 +154,7 @@ header {
 .clients {
     background-color: #ffffff;
     padding: 40px 0;
+    text-align: center;
 }
 
 .clients-content h2 {
@@ -183,11 +187,14 @@ header {
 .community-cards {
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
 }
 
 .card {
     width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
 }
 
 .card i {
@@ -209,8 +216,8 @@ header {
 }
 
 .icon-circle {
-    width: 90px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
     background-color: #E8F5E9;
     border-radius: 50%;
     display: flex;
@@ -220,7 +227,7 @@ header {
 }
 
 .icon-circle i {
-    font-size: 40px;
+    font-size: 32px;
     color: #4CAF4F;
 }
 
@@ -228,7 +235,7 @@ header {
     background-color: #ffffff;
     padding: 80px 120px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-family: "Open Sans", sans-serif;
 }
@@ -282,10 +289,8 @@ header {
 .tesla {
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
     background-color: #F4F8FB;
     padding: 80px 100px;
-    align-items: center;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -298,7 +303,6 @@ header {
 .tesla-customers {
     display: flex;
     justify-content: space-around;
-    gap: 25px;
     margin-bottom: 25px;
     align-items: center;
 }
@@ -315,6 +319,7 @@ header {
     height: 400px;
     object-fit: cover;
     border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
 
 .tesla-right {
@@ -384,9 +389,12 @@ header {
 .mcard-content {
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
-    background-color: #f6e9e9;
-    margin-top: -15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: relative;
+    width: 85%;
+    margin: -50px auto 0 auto;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .mcard-content h3 {
@@ -475,7 +483,7 @@ header {
 .footer-brands i {
     background-color: #24333D;
     padding: 10px;
-    border-radius: 50;
+    border-radius: 50%;
     font-size: 15px;
 }
 
