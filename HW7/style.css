@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    align-items: center;
+    padding: 0 5%;
+    height: 80px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+.name h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.letter {
+    border-radius: 50%;
+    background-color: rgb(161, 114, 205);
+    color: aliceblue;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.letter h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    border-radius: 6px;
+    background-color: rgb(161, 114, 205);
+    color: white !Important;
+    font-weight: 600;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    position: fixed;
+    color: rgb(161, 114, 205);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    box-shadow: 1px 1px rgb(176, 176, 208);
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat a {
+    text-decoration: none;
+    color: inherit; 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #242D42;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.footer-logo .letter {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.project-card {
+    background-color: white;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+    padding: 60px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-bottom: -100px;
+}
+
+.info-col {
+    width: 50%;
+}
+
+.form-col {
+    width: 50%;
+}
+
+.row .field {
+    width: 50%;
+}
+
+.info.col h2 {
+    font-size: 32px;
+    color: #242D42;
+    margin-bottom: 15px;
+}
+
+.lorem {
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 240, 255); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(161, 114, 205); 
+    font-size: 20px;
+}
+
+.text span {
+    display: block;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 3px;
+}
+
+.text p {
+    font-weight: 600;
+    color: #242D42;
+}
+
+.socials {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(245, 240, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(161, 114, 205);
+    text-decoration: none;
+}
+
+.socials a.fb {
+    background-color: rgb(161, 114, 205); 
+    color: white;
+}
+
+.field {
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(173, 172, 172);
+}
+
+.label {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.purple-text {
+    color: rgb(161, 114, 205); 
+}
+
+.purple-field {
+    border-bottom: 1px solid rgb(161, 114, 205); 
+}
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.submit-btn {
+    background-color: rgb(161, 114, 205);
+    color: white;
+    width: fit-content;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.purple-icon {
+    background-color: rgb(161, 114, 205); 
+    color: white;
+}
+
+.purple-item {
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 60%;
+}
+
+.guy {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 80px 10%;     
+}
+
+.guy-text {
+    width: 50%;
+    padding-right: 50px; 
+}
+
+.guy-text h1 {
+    font-size: 56px; 
+    color: #242D42; 
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.guy-bio {
+    color: #888; 
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.btn-hello {
+    display: inline-block;
+    background-color: rgb(161, 114, 205); 
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 50px; 
+}
+
+.guy-stats {
+    display: flex;
+    gap: 2px;
+}
+
+.stat-box {
+    background-color: rgb(245, 240, 255); 
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.stat-box h3 {
+    font-size: 24px;
+    color: #242D42;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    font-size: 13px;
+    color: #888;
+}
+
+.guy-image {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.guy-image img {
+    width: 100%;
+    max-width: 450px; 
+    border-radius: 20px; 
+    box-shadow: 5px 5px 0px rgb(245, 240, 255);
+}
