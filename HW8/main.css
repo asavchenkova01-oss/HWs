@@ -289,6 +289,40 @@ footer {
     border-radius: 5px;
     opacity: 0.7;
     background-color:#B9D2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-blue p {
+    margin-top: 15px;      
+    color: #043873;       
+    font-weight: 700;     
+    font-size: 18px;
+}
+
+.pulse-loader {
+    width: 50px;
+    height: 50px;
+    background-color: #043873; 
+    border-radius: 50%; 
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8); 
+        opacity: 0.5;          
+    }
+    50% {
+        transform: scale(1.2); 
+        opacity: 1;            
+    }
+    100% {
+        transform: scale(0.8); 
+        opacity: 0.5;
+    }
 }
 
 .project-description {
