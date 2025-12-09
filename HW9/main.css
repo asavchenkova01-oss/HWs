@@ -274,29 +274,16 @@ header {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(57, 202, 173, 0.2);
 }
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1900px) {
     .container, .hero-container, .cards-container {
-        max-width: 1600px!Important; 
+        max-width: 1600px; 
     }
     body { font-size: 20px; }
-    .hero-content h1 { 
-        font-size: 80px; 
-    }
-    .hero-image img { 
-        width: 650px; 
-        height: 650px; 
-    }
-    .card { 
-        padding: 60px 40px; 
-    }
-    .card-icon { 
-        width: 80px; 
-        height: 80px; 
-    }
-    .card-icon i { 
-        font-size: 30px; 
-    }
+    .hero-content h1 { font-size: 80px; }
+    .hero-image img { width: 650px; height: 650px; }
+    .card { padding: 60px 40px; }
+    .card-icon { width: 80px; height: 80px; }
+    .card-icon i { font-size: 30px; }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -322,15 +309,10 @@ header {
         font-size: 42px; 
     }
 
-    .hero-content p, 
-    .hero-content .btn-hero {
-        margin-left: auto;
-        margin-right: auto;
-    }
     .hero-content p {
-        margin-bottom: 30px;
+        margin: 0 auto 30px auto;
     }
-
+    
     .hero-image img {
         width: 400px; 
         height: 400px;
@@ -343,6 +325,11 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .container, .hero-container, .cards-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .container {
         flex-direction: column;
